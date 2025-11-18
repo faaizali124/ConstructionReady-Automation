@@ -25,6 +25,8 @@ out/
 # Logs
 *.log
 logs/
+hs_err_pid*
+replay_pid*
 
 # OS files
 .DS_Store
@@ -72,3 +74,18 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### BlueJ ###
+*.ctxt
+
+### Mobile Tools for Java (J2ME) ###
+.mtj.tmp/
+
+### Package Files ###
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
