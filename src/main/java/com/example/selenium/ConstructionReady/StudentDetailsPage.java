@@ -81,7 +81,7 @@ public class StudentDetailsPage extends BasePage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(highSchool)).sendKeys(high_school);
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='" + high_school +"']"))).click();
         driver.findElement(program_teacher).sendKeys(teacher);
-        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='" + teacher + " / " + program + "']"))).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='" + teacher + " / " + program + " / " + high_school + "']"))).click();
         driver.findElement(gradYear).click();
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='" + grad__year + "']"))).click();
 
